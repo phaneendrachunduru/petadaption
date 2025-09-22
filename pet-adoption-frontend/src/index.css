@@ -1,0 +1,10 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb; /* Light background color */
+  color: #333; /* Text color */
+  line-height: 1.6; /* Improved readability */
+  height: 100vh; /* Full viewport height */
+}

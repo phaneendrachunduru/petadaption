@@ -1,0 +1,66 @@
+.admin-container {
+  padding: 2rem;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.admin-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8a2be2; /* Primary color */
+  margin-bottom: 0.5rem;
+}
+
+.admin-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.admin-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.admin-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-card h2 {
+  color: #8a2be2;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.admin-card p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.admin-button {
+  padding: 0.5rem 1rem;
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+  background-color: #7326c2;
+}

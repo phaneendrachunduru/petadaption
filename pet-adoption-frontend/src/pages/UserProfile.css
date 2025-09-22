@@ -1,0 +1,82 @@
+/* Container for the user profile */
+.profile-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px; /* Add margin to push content below the navbar */
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-details p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Highlight the labels with a different font style */
+.profile-details p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.profile-button a {
+  background-color: #48CFCB;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button a:hover {
+  background-color: #3ba8b7;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-header h1 {
+    font-size: 2rem;
+  }
+
+  .profile-details p {
+    font-size: 1rem;
+  }
+}

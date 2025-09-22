@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main Home Container */
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8a2be2; /* Primary color */
+  color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-title .highlight-text {
+  color: #ff5c8d; /* Accent color */
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.cta-button {
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color: #ff5c8d; /* Accent color */
+  color: white;
+}
+
+.cta-button.primary:hover {
+  background-color: #e04d75;
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.cta-button.secondary:hover {
+  background-color: white;
+  color: #8a2be2; /* Primary color */
+}
+
+/* Hero Image */
+.hero-image-container {
+  max-width: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Features Section */
+.features-section {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  width: 30%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Success Stories Section */
+.success-stories-section {
+  margin-top: 50px;
+}
+
+.stories-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Success Story Card */
+.success-story-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 48%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.story-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.story-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.story-quote {
+  font-size: 1rem;
+  color: #777;
+  font-style: italic;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #8a2be2; /* Primary color */
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff5c8d; /* Accent color */
+  color: white;
+  padding: 14px 28px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e04d75;
+}
+
+.cta-icon {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover .cta-icon {
+  transform: translateX(5px);
+}
+/* Stats Section */
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between; /* Align items side by side */
+  gap: 20px; /* Add gap between cards */
+  width: 100%; /* Make sure the container takes full width */
+  flex-wrap: wrap; /* Allow the items to wrap to the next row on smaller screens */
+}
+
+.stat-card {
+  text-align: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 18%; /* Adjusted width to 18% for each card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space between cards in the vertical direction */
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8a2be2; /* Primary color */
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .stat-card {
+    width: 45%; /* Adjust card width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-card {
+    width: 100%; /* Stack cards on very small screens */
+  }
+}

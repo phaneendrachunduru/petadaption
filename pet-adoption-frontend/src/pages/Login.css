@@ -1,0 +1,81 @@
+/* Login Page Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4rem);
+  background-color: #f7fafc; /* Light background color */
+  padding: 0 1rem;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #1a202c; /* Dark gray color */
+  font-weight: bold;
+}
+
+.login-box p {
+  text-align: center;
+  color: #4a5568; /* Gray color */
+}
+
+.toggle-btn {
+  font-weight: bold;
+  color: #8a2be2; /* Primary color (Purple) */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #8a2be2; /* Primary color for focus */
+  box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.3); /* Lighter purple shadow */
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #8a2be2; /* Primary color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #7a1ec2; /* Darker purple on hover */
+}
+
+.forgot-password-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #8a2be2; /* Primary color */
+  font-size: 0.875rem;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}

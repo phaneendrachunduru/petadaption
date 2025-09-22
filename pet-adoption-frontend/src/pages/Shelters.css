@@ -1,0 +1,82 @@
+/* Shelters.css */
+.shelters-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.shelters-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8a2be2; /* Primary color */
+  margin-bottom: 1rem;
+}
+
+.shelters-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.shelters-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.shelter-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.shelter-card:hover {
+  transform: scale(1.05);
+}
+
+.shelter-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shelter-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8a2be2; /* Primary color */
+  margin-top: 1rem;
+}
+
+.shelter-location {
+  font-size: 1.1rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+.shelter-description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.visit-shelter-button {
+  background-color: #8a2be2; /* Primary color */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.visit-shelter-button:hover {
+  background-color: #6a1bbb; /* Darker shade for hover */
+}
+.shelter-image {
+  width: 100%;
+  height: 200px;  /* Adjust this value to fit your design */
+  object-fit: cover;  /* Ensures the image covers the area without distortion */
+  border-radius: 8px;  /* Optional: Add rounded corners to the images */
+  margin-bottom: 1rem;  /* Adds space below the image */
+}

@@ -1,0 +1,75 @@
+/* General Section Styles */
+.success-section {
+  background-color: #f7fafc; /* Light gray background */
+  padding-top: 4rem; /* Add padding at the top */
+  padding-bottom: 4rem; /* Add padding at the bottom */
+}
+
+/* Section Header */
+.section-header {
+  margin-bottom: 3rem; /* Space below title and subtitle */
+}
+
+.section-header .section-title {
+  font-size: 2rem; /* Title font size */
+  font-weight: 700; /* Bold title */
+  color: #2d3748; /* Dark text color */
+}
+
+.section-header .section-subtitle {
+  font-size: 1.125rem; /* Subtitle font size */
+  color: #718096; /* Lighter text color */
+  margin-top: 0.5rem; /* Space between title and subtitle */
+}
+
+/* Stories Grid */
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default single column layout */
+  gap: 2rem; /* Space between cards */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .stories-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+  }
+}
+
+/* Success Story Card */
+.success-story-card {
+  background-color: #ffffff; /* White background */
+  padding: 1.5rem; /* Padding inside each card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Animation for hover effect */
+}
+
+.success-story-card:hover {
+  transform: translateY(-5px); /* Lift the card on hover */
+}
+
+/* Story Image */
+.success-story-card .story-image {
+  width: 100%; /* Ensure the image fills the card width */
+  max-height: 200px; /* Limit the height of the image */
+  object-fit: cover; /* Ensure the image covers the space */
+  border-radius: 8px; /* Round the corners of the image */
+}
+
+/* Story Name */
+.success-story-card .story-name {
+  font-size: 1.25rem; /* Larger font size for the adopter's name */
+  font-weight: 600; /* Bold text */
+  color: #2d3748; /* Dark color for name */
+  margin-top: 1rem; /* Space above the name */
+}
+
+/* Story Quote */
+.success-story-card .story-quote {
+  font-size: 1rem; /* Standard text size for the quote */
+  color: #4a5568; /* Lighter color for the quote */
+  margin-top: 0.75rem; /* Space above the quote */
+  font-style: italic; /* Italicize the quote */
+}
